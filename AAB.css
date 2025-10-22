@@ -1,9 +1,14 @@
+
+
+
+
 h1{
     text-align: left;
     font-size: 15vw;
     margin-top: 20vw;
     margin-left:20vw;
     color:#2e565f;
+    font-family:'Gasoek One' ;
 }
 
 .let{
@@ -11,6 +16,7 @@ h1{
     font-size: 7vw;
     margin-left:5vw;
     margin-right: 5vw;
+    font-family: 'Vend Sans';
 }
 
 p{
@@ -18,6 +24,7 @@ p{
     font-size: 3vw;
     margin-left:5vw;
     margin-right:5vw;
+    font-family: 'Vend Sans';
 }
 
 .button{
@@ -39,6 +46,7 @@ h2{
     outline-width: 0.5vw;
     border-radius: 7vw;
     color:black;
+    font-family: 'Montserrat';
 }
 
 h2:hover{
@@ -48,7 +56,17 @@ h2:hover{
 }
 
 .video{
-    margin-top:4vw;
+    margin-top:10vw;
+    display:block;
+    width:90vw;
+    height:auto;
+    text-align: center;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.balls{
+    margin-top:10vw;
     display:block;
     width:90vw;
     height:auto;
@@ -63,4 +81,16 @@ h3{
     margin-top: 1vw;
     margin-left:5vw;
     margin-bottom:1vw;
+    font-family: 'Vend Sans';
+    font-weight: bold;
+}
+
+fotter{
+    display:block;
+    text-align: center;
+    font-size: 2vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:5vw;
+    font-family: 'Vend Sans';
 }
